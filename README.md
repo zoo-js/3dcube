@@ -20,7 +20,7 @@ https://github.com/zoo-js/zoo
 ```html
 <iframe
   id="zoo-3dcube"
-  src="https://zoo-js.github.io/3dcube/?red=cat&white=dog&blue=pig&green=sheep&orange=koala&yellow=ant" 
+  src="https://zoo-js.github.io/3dcube/?red=cat&white=dog&blue=pig&green=sheep&orange=koala&yellow=ant&bg=*ffd8bf"
   name="3dcube"
   width="100%"
   height="100%"
@@ -41,6 +41,10 @@ green   // 绿色面
 orange  // 橙色面
 yellow  // 黄色面
 bg      // 背景色
+/*
+  背景色支持直接英文，如 red、blue。
+  也支持十六进制色值，如 #ffccc7 #ffd8bf #f4ffb8，注意将 `#` 替换为 `*` 使用。
+*/
 ```
 
 ## 🎗 Tip

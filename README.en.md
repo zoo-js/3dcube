@@ -20,7 +20,7 @@ https://github.com/zoo-js/zoo
 ```html
 <iframe
   id="zoo-3dcube"
-  src="https://zoo-js.github.io/3dcube/?red=cat&white=dog&blue=pig&green=sheep&orange=koala&yellow=ant" 
+  src="https://zoo-js.github.io/3dcube/?red=cat&white=dog&blue=pig&green=sheep&orange=koala&yellow=ant&bg=*ffd8bf"
   name="3dcube"
   width="100%"
   height="100%"
@@ -41,6 +41,10 @@ green   // green noodles
 orange  // orange noodles
 yellow  // yellow noodles
 bg      // background color
+/*
+  The background color supports direct English，like red or blue.
+  Hex color values are also supported, such as #ffccc7 #ffd8bf #f4ffb8. Note `#` replaced with `*`.
+*/
 ```
 
 ## 🎗 Tip
