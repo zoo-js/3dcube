@@ -15,6 +15,10 @@ https://github.com/zoo-js/zoo
 
 ## 📦 如何使用
 
+### 在线预览
+
+https://zoo-js.github.io/3dcube/?red=cat&white=dog&blue=pig&green=sheep&orange=koala&yellow=ant&bg=*ffd8bf
+
 ### 例子
 
 ```html
