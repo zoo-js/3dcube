@@ -19,7 +19,7 @@ https://github.com/zoo-js/zoo
 
 https://zoo-js.github.io/3dcube/?red=cat&white=dog&blue=pig&green=sheep&orange=koala&yellow=ant&bg=*ffd8bf
 
-### 例子
+### 项目引入
 
 ```html
 <iframe
