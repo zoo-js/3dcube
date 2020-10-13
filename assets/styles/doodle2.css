@@ -1,3 +1,6 @@
+:root {
+  --zoo-bg: #fff;
+}
 html {
   height: 100%;
 }
@@ -32,7 +35,7 @@ body {
   }
 }
 #bg {
-  background-color: #fff;
+  background-color: var(--zoo-bg);
   font-family: arial, sans-serif;
   font-size: 13px;
   height: 100%;
@@ -248,33 +251,12 @@ body {
   background-size:160px 123px;
 }
 #helpimage.one{
-  background:no-repeat url(../media/help_rotate.png);
   width:140px;
   height: 100px;
   background-size:140px 100px;
 }
 #helpimage.two{
-  background:no-repeat url(../media/help_twist.png);
   width:140px;
   height: 100px;
   background-size:140px 100px;
 }
-.SPRITE_carrot_grey_up_2x{background:no-repeat url(/logos/2014/rubiks/sprite-ui.png) -34px -168px;width:15px;height:15px;background-size:49px 688px}
-.SPRITE_email_96_2x{background:no-repeat url(/logos/2014/rubiks/sprite-ui.png) 0 -472px;width:48px;height:48px;background-size:49px 688px}
-.SPRITE_facebook_96_2x{background:no-repeat url(/logos/2014/rubiks/sprite-ui.png) 0 -304px;width:48px;height:48px;background-size:49px 688px}
-.SPRITE_google_plus_96_2x{background:no-repeat url(/logos/2014/rubiks/sprite-ui.png) 0 -84px;width:48px;height:48px;background-size:49px 688px}
-.SPRITE_help_96_2x{background:no-repeat url(/logos/2014/rubiks/sprite-ui.png) 0 -422px;width:48px;height:48px;background-size:49px 688px}
-.SPRITE_search_96_2x{background:no-repeat url(/logos/2014/rubiks/sprite-ui.png) 0 0;width:48px;height:48px;background-size:49px 688px}
-.SPRITE_share_96_2x{background:no-repeat url(/logos/2014/rubiks/sprite-ui.png) 0 -640px;width:48px;height:48px;background-size:49px 688px}
-.SPRITE_twitter_96_2x{background:no-repeat url(/logos/2014/rubiks/sprite-ui.png) 0 -590px;width:48px;height:48px;background-size:49px 688px}
-.SPRITE_carrot_down_2x{background:no-repeat url(/logos/2014/rubiks/sprite-ui.png) 0 -556px;width:15px;height:15px;background-size:49px 688px}
-.SPRITE_email_64_2x{background:no-repeat url(/logos/2014/rubiks/sprite-ui.png) 0 -270px;width:32px;height:32px;background-size:49px 688px}
-.SPRITE_facebook_64_2x{background:no-repeat url(/logos/2014/rubiks/sprite-ui.png) 0 -236px;width:32px;height:32px;background-size:49px 688px}
-.SPRITE_google_plus_64_2x{background:no-repeat url(/logos/2014/rubiks/sprite-ui.png) 0 -354px;width:32px;height:32px;background-size:49px 688px}
-.SPRITE_help_64_2x{background:no-repeat url(/logos/2014/rubiks/sprite-ui.png) 0 -168px;width:32px;height:32px;background-size:49px 688px}
-.SPRITE_help_64_2x:hover{background:no-repeat url(/logos/2014/rubiks/sprite-ui.png) 0 -50px;width:32px;height:32px;background-size:49px 688px}
-.SPRITE_search_64_2x{background:no-repeat url(/logos/2014/rubiks/sprite-ui.png) 0 -522px;width:32px;height:32px;background-size:49px 688px}
-.SPRITE_search_64_2x:hover{background:no-repeat url(/logos/2014/rubiks/sprite-ui.png) -17px -556px;width:32px;height:32px;background-size:49px 688px}
-.SPRITE_share_64_2x{background:no-repeat url(/logos/2014/rubiks/sprite-ui.png) 0 -134px;width:32px;height:32px;background-size:49px 688px}
-.SPRITE_share_64_2x:hover{background:no-repeat url(/logos/2014/rubiks/sprite-ui.png) 0 -202px;width:32px;height:32px;background-size:49px 688px}
-.SPRITE_twitter_64_2x{background:no-repeat url(/logos/2014/rubiks/sprite-ui.png) 0 -388px;width:32px;height:32px;background-size:49px 688px}

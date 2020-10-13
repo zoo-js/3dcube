@@ -19,6 +19,7 @@
 <div style="text-align:center;clear:both;">
 </div>
 
+<div id="bg"></div>
 <div id="container"></div>
 <div id="uipanel" class="fadeTransition">
   <div id="movecounter">0</div>
@@ -69,6 +70,11 @@
 				document.documentElement.style.setProperty('--zoo-'+color, 'url('+getPetUrl(getUrlParam(color)))+')';
 			}
 		})
+		if(getUrlParam('bg')){
+			let bg = getUrlParam('bg')
+			bg = bg.includes('*') ? bg.replace('*', '#') : bg
+			document.documentElement.style.setProperty('--zoo-bg', bg);
+		}
 	}());
 </script>
 
