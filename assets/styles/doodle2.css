@@ -181,6 +181,7 @@ body {
   opacity: 0;
   position: relative;
   width: 572px;
+  margin-top: -32px;
 }
 .mobile #uipanel {
   bottom: auto;

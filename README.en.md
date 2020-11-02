@@ -9,7 +9,7 @@ Cute pet 3D cube game
 ## 🔥 Preview
 ![](./cube.png)
 
-## ✨ Cute pet list (83)
+## ✨ Cute pet list
 
 https://github.com/zoo-js/zoo
 
